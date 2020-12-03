@@ -15,5 +15,6 @@ export class Tab3Page {
   }
   abrirRegistro(item){
     console.log(item);
+    this.dataLocal.abrirRegistro(item);
   }
 }
