@@ -1,11 +1,9 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-
+  <ion-slides [options]="slideOpts">
+    <ion-slide>
+      <ion-button (click)="scan()" expand="full" fill="outline" size="large" shape="round">
+        Escanear código
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
