@@ -14,7 +14,7 @@ export class Registro {
 
 
     private determinarTipo(){
-        const inicioTexto = this.texto.substr(0,8);
+        const inicioTexto = this.texto.substr(0,4);
         console.log('Tipo:', inicioTexto);
 
         switch (inicioTexto) {
