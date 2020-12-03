@@ -33,7 +33,6 @@ export class DataLocalServiceService {
     this.navCtrl.navigateForward('/tabs/tab3');
     switch (registro.type) {
       case 'Sitio web':
-        console.log('Entramos');
         this.iab.create(registro.texto, '_system');
         break;
     }
