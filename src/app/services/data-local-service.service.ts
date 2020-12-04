@@ -35,6 +35,10 @@ export class DataLocalServiceService {
       case 'Sitio web':
         this.iab.create(registro.texto, '_system');
         break;
+
+      case 'Mapa':
+          this.navCtrl.navigateForward(`tabs/mapa/${registro.texto}`)
+        break;
     }
   }
 
